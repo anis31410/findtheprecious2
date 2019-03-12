@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "text";
+    src: url("./police/policetext.ttf") format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    font-family: "text";
+}
+.carousel-inner {
+    
+    object-fit:cover;
+}
+.card-img-top{
+    /* opacity: 0.5; */
+  filter: alpha(opacity=50);
+}
+.overlay:hover * {
+visibility:hidden;
+}
+
+span {
+    color:black;
+    background-color:white;
+    position:absolute;
+}
+.card-image-top:hover {
+    opacity: 1.0;
+  
+}
+span1 {
+    color:white;
+    position:absolute;
+}
+.card-img-overlay {
+    /* opacity:0.5; */
+    /* background-color: rgba(255,255,255,0.5); */
+}
+.card-img-top{
+    /* opacity: 0.5; */
+    filter: alpha(opacity=50);
+}
+
+.wanted .card img {
+    width:100%;
+    /* opacity: 0.5; */
+}
+
+.card-img-overlay:hover + img {
+    opacity:1;
+}
+.overlay {
+    position:absolute;
+    background-color:rgba(255,255,255,0.5);
+    width:100%;
+    height:100%;
+    padding-top:5%;
+}
+.overlay:hover {
+    background-color: transparent;
+}
+.fellow-image {
+    position:relative; 
+}
+.clrtitre {
+    color:gray;
+}
+.clrtitre-active {
+    color:orange;
+}
+@font-face {
+    font-family: "text-title";
+    src: url("./police/police-titre.ttf") format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+.text-title {
+    font-family: "text-title";
+}
+.noireffet {
+    background-color: black;
+}
+.ecritorange {
+    color:orange;
+    background-color:transparent;
+    position:relative;
+    position:center;
+}
+
+
+
+.titre-f {
+    position:absolute;
+    top: 50%;
+    left: 25%;
+}
+.img-fluid {
+    width:100%;
+}
+.titre-barr {
+    text-decoration:line-through orange;
+}
+nav ul li a{
+    font-family: "text-title";
+}
